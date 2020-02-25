@@ -22,8 +22,9 @@ class Dog
   end
   
   def print_all
-    
-    @all.print 
+    @all.do each |dog|
+    puts "#{dog}"
+  end
   end
 
 end
